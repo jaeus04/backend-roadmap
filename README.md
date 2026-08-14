@@ -31,7 +31,7 @@
 ## Learning Progress
 
 - [x] Day 01 - Java 기본 문법
-- [ ] Day 02 - Java Collection
+- [x] Day 02 - Java Collection
 - [ ] Day 03 - Java 객체지향
 - [ ] Day 04 - Java 예외 처리 / 기타
 - [ ] Java 기초 복습
@@ -57,3 +57,13 @@ src/
 │   ├── Problem05.java
 │   └── Student.java
 └── ...
+
+### Day 02
+- ArrayList 학습
+- ArrayList의 add / get / set / remove / size
+- HashSet과 중복 제거
+- HashMap의 Key-Value 구조
+- 향상된 for문
+- 객체를 ArrayList에 저장
+- 객체를 HashMap에 저장
+- Collection에서 객체를 꺼내 메서드 호출
