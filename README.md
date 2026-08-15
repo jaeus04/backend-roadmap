@@ -32,7 +32,7 @@
 
 - [x] Day 01 - Java 기본 문법
 - [x] Day 02 - Java Collection
-- [ ] Day 03 - Java 객체지향
+- [x] Day 03 - Java 객체지향
 - [ ] Day 04 - Java 예외 처리 / 기타
 - [ ] Java 기초 복습
 - [ ] SQL
@@ -67,3 +67,12 @@ src/
 - 객체를 ArrayList에 저장
 - 객체를 HashMap에 저장
 - Collection에서 객체를 꺼내 메서드 호출
+
+### Day 03
+- 인터페이스(interface)
+- implements
+- @Override
+- 다형성
+- 인터페이스 타입으로 구현체 다루기
+- List 인터페이스와 ArrayList 구현체
+- 서로 다른 구현체를 하나의 List로 관리
