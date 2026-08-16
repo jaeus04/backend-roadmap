@@ -33,7 +33,7 @@
 - [x] Day 01 - Java 기본 문법
 - [x] Day 02 - Java Collection
 - [x] Day 03 - Java 객체지향
-- [ ] Day 04 - Java 예외 처리 / 기타
+- [x] Day 04 - Java 예외 처리 / 기타
 - [ ] Java 기초 복습
 - [ ] SQL
 - [ ] Spring Boot
@@ -76,3 +76,12 @@ src/
 - 인터페이스 타입으로 구현체 다루기
 - List 인터페이스와 ArrayList 구현체
 - 서로 다른 구현체를 하나의 List로 관리
+
+### Day 04
+- 예외(Exception)의 개념
+- try-catch
+- ArithmeticException
+- ArrayIndexOutOfBoundsException
+- 여러 catch 사용
+- finally
+- 예외 발생 후 흐름 이해
