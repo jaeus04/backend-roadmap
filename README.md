@@ -85,3 +85,14 @@ src/
 - 여러 catch 사용
 - finally
 - 예외 발생 후 흐름 이해
+
+### Day 05
+- 클래스 책임 분리
+- User / UserRepository / UserService 구조
+- Repository의 역할
+- Service의 역할
+- 생성자를 통한 의존성 전달
+- 비즈니스 로직과 검증
+- throw
+- IllegalArgumentException
+- try-catch를 이용한 예외 처리
