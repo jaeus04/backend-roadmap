@@ -96,3 +96,74 @@ src/
 - throw
 - IllegalArgumentException
 - try-catch를 이용한 예외 처리
+
+### Day 06 - CRUD
+
+#### 학습 내용
+- CRUD 개념
+  - Create
+  - Read
+  - Update
+  - Delete
+- User 조회 기능 구현
+- ID를 이용한 사용자 조회
+- 사용자 정보 수정
+- 사용자 삭제
+- Iterator를 이용한 안전한 삭제
+- Service / Repository 역할 분리
+- CRUD 과정에서의 예외 처리
+
+#### 구현 구조
+
+```text
+Problem06
+    ↓
+UserService
+    ↓
+UserRepository
+    ↓
+List<User>
+
+### Day 07 - HTTP / REST API 기초
+
+#### 학습 내용
+- HTTP Method 이해
+  - GET: 조회
+  - POST: 생성
+  - PUT: 수정
+  - DELETE: 삭제
+- REST API의 기본적인 URL 구조 이해
+  - `GET /users`
+  - `GET /users/{id}`
+  - `POST /users`
+  - `PUT /users/{id}`
+  - `DELETE /users/{id}`
+- HTTP 상태 코드 이해
+  - `200 OK`: 요청 성공
+  - `201 Created`: 리소스 생성 성공
+  - `400 Bad Request`: 잘못된 요청
+  - `404 Not Found`: 리소스를 찾을 수 없음
+  - `500 Internal Server Error`: 서버 내부 오류
+- HTTP Request / Response 개념
+- JSON을 이용한 데이터 전달
+- Request Body와 Response Body 이해
+- 사용자 ID는 서버/DB에서 관리하는 개념 이해
+
+#### CRUD와 HTTP의 연결
+
+| CRUD | HTTP Method | URL |
+|---|---|---|
+| Create | POST | `/users` |
+| Read | GET | `/users`, `/users/{id}` |
+| Update | PUT | `/users/{id}` |
+| Delete | DELETE | `/users/{id}` |
+
+#### 예시
+
+회원가입 요청:
+
+```json
+{
+  "name": "홍길동",
+  "email": "hong@example.com"
+}
